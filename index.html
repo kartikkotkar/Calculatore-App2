@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatore app</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        .heading{
+            
+            color: rgb(250, 36, 36);
+            text-align: center;
+            
+        }
+
+        .container{
+            background-color: black;
+            border: 2px solid rgb(0, 198, 7);
+            height: 330px;
+            width: 300px;
+            padding: 10px;
+           display: block;
+           margin-top: 10px;
+           margin-left: auto;
+           margin-right: auto;
+           border-radius: 20px;
+
+           
+           
+
+           
+        }
+
+        .input-text{
+            width: 260px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+           margin-top: 30px;
+           margin-left: 20px;
+            background-color: rgb(7, 92, 7);
+        }
+
+        .btn{
+            margin-top: 15px;
+            height: 40px;
+            width: 70px;
+            border-radius: 20px;
+            color: white;
+            background-color: #ffad33;
+            border: none;
+            transition: 1s;
+
+        }
+
+        .btn:hover{ 
+            box-shadow: 0px 5px 5px 0px rgb(240, 92, 92);
+            transition:
+            0.5s;
+            transform: scale(1.1);
+            border: 1px solid gold;
+        }
+        .special-btn{
+            margin-top: 10px;
+            height: 40px;
+            width: 70px;
+            border-radius: 20px;
+            color: rgb(22, 17, 17);
+            background-color: rgb(237, 237, 114);
+            border: none;
+            transition: 1s;
+        }
+
+        .special-btn:hover{
+            box-shadow: 0px 5px 5px 0px gray;
+            transition:
+            0.5s;
+            transform: scale(1.1);
+        }
+
+        .brand-name{
+            text-align: center;
+            color: #ffad33;
+            margin-bottom: -25px;
+            margin-top: -5px;
+           margin-left: 200px;
+           font-size: 10px;
+           
+        
+        }
+
+      
+    </style>
+</head>
+<body>
+    
+    <h1 class="heading">Calculatore</h1>
+    
+
+    <div class="container">
+        <p class="brand-name"><i>btn-corian</i></p>
+        <input type="text" class="input-text"/>
+
+        
+
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="special-btn">+</button>
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="special-btn">-</button>
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="special-btn">.</button>
+            <button class="btn">0</button>
+            <button class="btn">=</button>
+            <button class="btn">x</button>
+            <button class="special-btn">!</button>
+            <button class="special-btn">00</button>
+            <button class="special-btn">/</button>
+            <button class="special-btn">*</button>
+            <button class="special-btn">%</button>
+
+       
+
+        
+
+    </div>
+</body>
+</html>
